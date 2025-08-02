@@ -1,0 +1,23 @@
+interview-prep-organizer/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/                   # Images, logos, etc.
+│   ├── components/               # Reusable UI components
+│   │   └── PrivateRoute.jsx      # Protects dashboard route
+│   ├── context/                  # Global context (Auth, etc.)
+│   │   └── AuthContext.jsx       # Firebase Auth provider
+│   ├── firebase/                 # Firebase initialization
+│   │   └── config.js             # Firebase config
+│   ├── pages/                    # Main pages
+│   │   ├── Login.jsx
+│   │   ├── Signup.jsx
+│   │   └── Dashboard.jsx
+│   ├── App.jsx                   # Root component with routing
+│   ├── main.jsx                  # React + Vite entry point
+│   └── index.css                 # Global styles
+├── .env                          # Firebase environment variables
+├── .gitignore                    # Ignore .env, node_modules, etc.
+├── package.json
+├── vite.config.js
+└── README.md
